@@ -1,5 +1,0 @@
-matplotlib
-streamlit
-Image
-altair
-pydeck
