@@ -78,7 +78,7 @@ def piechart(df):
     ax.pie(DistrictNum["count"], labels=DistrictNum["DISTRICT"], explode=explode, labeldistance=1.1, autopct="%1.0f%%",
            pctdistance=0.75, startangle=90)
 
-    st.header(":blue[Pie Chart Displaying Percentage of Rest Areas in each District]", divider="grey")
+    st.header(":blue[Percentage of Rest Areas in each District]", divider="grey")
     st.pyplot(fig) # [ST2]
 
 
